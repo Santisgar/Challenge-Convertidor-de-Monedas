@@ -1,0 +1,6 @@
+public class Main {
+    public static void main(String[] args) {
+        AppHandler app = new AppHandler();
+        String options = app.getMenuItems();
+        Scanner userInput = app.getInput();
+}}
